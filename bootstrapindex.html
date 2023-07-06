@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+    <title>Pagina principal</title>
+    <title>Document</title>
+</head>
+<body>
+    <!--cabecera-->
+    <div class="jumbotron cabecera"><!--como esta la clase cabecera alineada lo sao de aca el text center-->
+        <h1>pagina principal</h1>
+        <p>Lorem ipsum...</p>
+    </div>
+    <!--barra de navegacion-->
+    <nav class="navbar navbar-expand-lg bg-light"><!--cambio de color-->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">InsumosMedicos</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ventas</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categorias
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">monitores</a></li><!--lo cambio-->
+                  <li><a class="dropdown-item" href="#">teclados</a></li>
+                  <li><a class="dropdown-item" href="#">mouses</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">memorias</a></li>
+                  <li><a class="dropdown-item" href="#">microprocesadores</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">proximamente</a>
+              </li>
+            </ul>
+            <!--eliminamos la etiqueta form la vemos mas adelante, es la barra de busqueda-->
+          </div>
+        </div>
+      </nav>
+      
+        <div class="container-fluid">
+            <ul class="nav nav">
+                <li><a href="#">Pagina 1</a></li>
+                <li><a href="#">Pagina 2</a></li>
+                <li><a href="#">Pagina 3</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>columna 1</h3>
+                <p>Lorem ipsum....</p>
+                <img src="./img/download (1).jpg" width="250" height="250" class="img-fluid img-thumbnail" alt="Instalacion de rack"><!-- img fluid me va a crear una imagen responsiba se adapta cuando achico la pantalla-->
+                <img src="./img/download (2).jpg"width="250" height="250" class="img-fluid img-thumbnail" alt="Instalacion de rack">              <!--thumbnail le da los bordecitos-->
+                <img src="./img/imagen3.jpg" width="250" height="250"class="img-fluid img-thumbnail " alt="Instalacion de rack">
+            </div>
+            <!--<div class="col-sm-4">
+                <h3>columna 2</h3>
+                <p>Lorem ipsum....</p>  
+            </div>
+            <div class="col-sm-4">
+                <h3>columna 3</h3>
+                <p>Lorem ipsum....</p>
+            </div>-->
+
+        </div>
+    </div>
+    
+</body>
+</html>
